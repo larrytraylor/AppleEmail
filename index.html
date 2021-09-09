@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Apple HTML Email</title>
+	<style type="text/css">
+		body {
+			Margin: 0;
+			padding: 0;
+			background-color: #f6f9fc;
+		}
+		table {
+			border-spacing: 0;
+		}
+		td {
+			padding: 0;
+		}
+		img {
+			border: 0;
+		}
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+			background-color: #f6f9fc;
+			padding-bottom: 40px;
+		}
+		.webkit{
+			max-width: 600px;
+			background-color: #ffffff;
+		}
+		.outer{
+			Margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			font-family: #4a4a4a;
+		}
+		.three-columns {
+			text-align: center;
+			font-size: 0;
+			padding-top: 40px;
+			padding-bottom: 30px;
+		}
+		.three-columns .column {
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.padding{
+			padding: 15px;
+		}
+		.three-columns .content{
+			font-size: 15px;
+			line-height: 20px;
+		}
+		a {
+			text-decoration: none;
+			color: #388CDA;
+			font-size: 16px;
+		}
+
+		@media screen and (max-width: 600px) { 
+			img.third-img-last {
+				width: 200px! important;
+				max-width: 200px! important;
+			}
+
+			.padding {
+				padding-left: 0!important;
+				padding-right: 0!important;
+			}
+		}
+		@media screen and (max-width: 400px) { 
+			img.third-img {
+				width: 200px! important;
+				max-width: 200px! important;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<!--  Wrapper -->
+<center class="wrapper">
+	<div class="webkit">
+
+		<table class="outer" align="center">
+<!-- First Row of Email. contains company logo -->
+			<tr>
+				<td>
+					<table width="100%" height="50" style="text-align: center;">
+						<tr>
+							<td style="background-color: #343d46;">
+								<a href="https://apple.com">
+								<img 
+									src="img/appleLogo.png"
+									width="20"
+									style="align-content: center;"
+									alt="Logo"
+									title="Logo">
+									
+								</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+<!-- Second Row of Email. Contains the begin banner for email -->
+			<tr>
+				<td>
+					<a href="https://apple.com">
+						<img 
+							src="img/1200x700.jpg" 
+							width="600"
+							style="max-width: 100%;" 
+							alt="Banner">
+					</a>
+				</td>
+			</tr>
+<!-- Third Row of Email -->
+			<tr>
+				<td>
+					<table width="100%" style="border-spacing: 0;">
+						<tr>
+							<td class="three-columns">
+<!-- First Column -->
+								<table class="column">
+									<tr>
+										<td class="padding">
+
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#">
+														<img 
+															class="third-img"
+															src="img/380x280.jpg" 
+															width="150" 
+															style="max-width: 150px;" 
+															alt="watch">
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 10px;">
+														<p style="font-size: 17px;font-weight: bold;">APPLE WATCH</p>
+														<p>The most advanced Apple Watch yet, 
+															featuring the Always-On Retina display, 
+															the ECG app, international emergency calling, 
+															fall detection, and a built‑in compass.</p>
+														<a href="#">Learn more..</a>
+
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+<!--                             Column #2                                        -->
+								<table class="column">
+									<tr>
+										<td class="padding">
+
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#">
+														<img 
+															class="third-img"
+															src="img/380x280-2.jpg" 
+															width="150px" 
+															style="max-width: 150px;" 
+															alt="watch">
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 10px;">
+														<p style="font-size: 17px;
+														font-weight: bold;"
+														>EAR PODS</p>
+
+														<p>AirPods deliver effortless, 
+															all-day audio on the go. 
+															And AirPods Pro bring Active Noise 
+															Cancellation to an in-ear headphone 
+															— with a customizable fit.</p>
+														<a href="#">Learn more..</a>
+
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+<!--  Column 3  -->
+								<table class="column">
+									<tr>
+										<td class="padding">
+
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#">
+														<img 
+															class="third-img-last"
+															src="img/380x280-3.jpg" 
+															width="150px" 
+															style="max-width: 150px;" 
+															alt="watch">
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 10px;">
+														<p style="font-size: 17px;font-weight: bold;">WATCH BANDS</p>
+														<p>Give your watch a lovely complement.
+															Custom high-performance fluoroelastomer 
+															with a pin‑and‑tuck closure.</p>
+														<a href="#">Learn more..</a>
+
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+
+					</table>
+				</td>
+			</tr>
+<!-- Footer. Contains Social Media Links Company Info Unsubscribe-->
+			<tr>
+				<td>
+					<table width="100%" style="border-spacing: 0;">
+						
+						<tr>
+							<td style="
+								background-color: #343d46;
+								padding: 15px;text-align: 
+								center;">
+							
+								<p style="
+									font-size: 18px;
+									color: #ffffff;
+									margin-bottom: 13px;">
+									
+									Connect with us
+								</p>
+								<!-- Social Media Links and Icons-->
+								<a href="#">
+									<img 
+										src="img/white-facebook.png" 
+										width="30px" 
+										alt="Facebook">
+								</a>
+								<a href="#">
+									<img 
+										src="img/white-twitter.png" 
+										width="30px" 
+										alt="Twitter">
+								</a>
+								<a href="#">
+									<img 
+										src="img/white-youtube.png" 
+										width="30px" 
+										alt="Youtube">
+								</a>
+								<a href="#">
+									<img 
+										src="img/white-linkedin.png" 
+										width="30px" 
+										alt="Linkedin">
+								</a>
+								<a href="#">
+									<img 
+										src="img/white-instagram.png" 
+										width="30px" 
+										alt="Instagram">
+								</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="background-color: #efefef;">
+					<table width="100%" style="border-spacing: 0;">
+
+						<tr>
+							<td style="padding:20px; text-align:center;padding-bottom: 10px;">
+							
+								<a href="#"><img src="img/appleLogo.png" 
+									width="50" alt="Apple Logo"></a>
+								<!-- Company Address -->
+								<p style="font-size: 16px; margin-top: 18px; margin-bottom: 10px;">One Apple Park Way
+									Cupertino, CA 95014</p>
+								<p><a href="mailto:contact@apple.com">contact@apple.com</a></p>
+								<p><a href="tel:14089961010">(408) 996–1010</a></p>
+								
+							
+							</td>
+						</tr>
+<!--                    Unsubscribe                            -->
+						<tr>
+							<td align="center" style="padding-bottom: 25px;text-align: center;">
+								<p><a href="#" style="font-size: 13px;">UNSUBSCRIBE</a></p>
+							</td>
+						</tr>
+
+						<tr>
+							<td height="20" style="background-color: #343d46;"></td>
+						</tr>
+
+
+					</table>
+				</td>
+			</tr>
+
+
+		</table>
+
+	</div>
+</center>
+
+
+</body>
+</html>
